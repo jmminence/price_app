@@ -33,6 +33,15 @@
         <h1>Easy</h1>
         <p>Bienvenido a la página de detalles de Easy. Aquí puedes encontrar información relevante sobre la empresa.</p>
         <!-- Puedes añadir más contenido aquí -->
+        
+        <!-- Botón para adjuntar archivo PDF -->
+        <form action="/ruta/a/tu/servidor" method="post" enctype="multipart/form-data">
+            <label for="file-upload" class="custom-file-upload">
+                Adjuntar archivo PDF
+            </label>
+            <input id="file-upload" type="file" name="pdf" accept=".pdf" />
+            <button type="submit">Subir</button>
+        </form>
     </div>
 </body>
 </html>
